@@ -1242,3 +1242,44 @@ It is reported that `npm run build` can fail on machines with no swap space, whi
 ## Something Missing?
 
 If you have ideas for more “How To” recipes that should be on this page, [let us know](https://github.com/facebookincubator/create-react-app/issues) or [contribute some!](https://github.com/facebookincubator/create-react-app/edit/master/packages/react-scripts/template/README.md)
+
+
+
+// var FriendsList = React.createClass({
+//    render: function(){
+//        var name = this.props.name ;
+//        var friends = ['Shivani', 'Agastya', 'Thaatha'];
+//        return (
+//            <div>
+//                <h3> { name } </h3>
+//                <ShowYourFriends names={ friends } />
+//            </div>
+//        )
+//    }
+// });
+//
+// var ShowYourFriends = React.createClass({
+//    render: function(){
+//        var listItems = this.props.names.map(function(name){
+//            return <li> <strong>{ name } </strong> </li>;
+//        });
+//        return(
+//            <ul>
+//                { listItems }
+//            </ul>
+//        )
+//    }
+// });
+
+// var HelloWorld = React.createClass({
+//     render: function(){
+//         return(
+//             <h1>Hello { this.props.name } </h1>
+//         )
+//     }
+// });
+//
+// ReactDOM.render(
+//   <FriendsList name="Pranava S Balugari" />,
+//   document.getElementById('root')
+// );
